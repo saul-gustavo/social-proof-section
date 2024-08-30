@@ -92,12 +92,10 @@ body {
 }
 
 .stars-campo .star {
-    background-image: url(./images/icon-star.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 20px;
     height: 20px;
-    display: flex;
+    display: block;
+    object-fit: cover;
 }
 
 .stars p {
