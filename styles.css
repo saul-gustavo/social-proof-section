@@ -26,6 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 15px;
+    position: relative;
 }
 
 .main {
@@ -38,6 +39,7 @@ body {
     flex-direction: column;
     gap: 3em;
     padding: 0px 1rem;
+    margin-bottom: 1rem;
 }
 
 .text-content {
@@ -171,6 +173,23 @@ body {
     position: relative;
     top: 40px;
 }
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--dark-grayish-magenta);
+    transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+    color: var(--very-dark-magenta);
+}
+
 
 @media screen and (max-width: 992px) {
     .main {
